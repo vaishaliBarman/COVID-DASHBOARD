@@ -1,0 +1,37 @@
+.stat-pill {
+  display: flex;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  width: fit-content;
+  min-width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.stat-pill:hover {
+  transform: translateY(-4px);
+}
+
+.pill-label,
+.pill-value {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pill-label {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  min-width: 140px;
+}
+
+.pill-value {
+  font-weight: bold;
+  border: 1px solid #0eb6f8;
+  border-radius: 0 999px 999px 0;
+  color: #000;
+  min-width: 80px;
+  text-align: center;
+}

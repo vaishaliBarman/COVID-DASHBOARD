@@ -1,0 +1,25 @@
+/* PieChartComponent.css */
+
+.pie-chart-container {
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .pie-chart-container {
+      padding: 1rem;
+    }
+  }
+  
