@@ -91,7 +91,7 @@ const Dashboard = () => {
       ) : covidData ? (
         <>
           {/* Summary cards */}
-          <div className="animate__animated animate__fadeIn  position-relative">
+          <div className="animate__animated animate__fadeIn mb-4">
             <StatisticsCards data={covidData} />
           </div>
 

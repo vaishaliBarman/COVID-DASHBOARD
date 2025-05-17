@@ -33,7 +33,7 @@ const PieChartComponent = ({ data }) => {
   ];
 
   return (
-    <div className=" mt-5 pie-chart-container animate__animated animate__zoomIn">
+    <div className=" mt-5  animate__animated animate__zoomIn">
       <div className="card-body">
         <h3 id="H2"className="card-title text-center  mb-3">COVID-19 Overview</h3>
         <ResponsiveContainer width="100%" aspect={1} height={400}>
